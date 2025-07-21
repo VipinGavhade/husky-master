@@ -104,7 +104,7 @@ const Navbar = () => {
             <SheetHeader>
               <ThemeToggle />
             </SheetHeader>
-            <div className="flex flex-col mx-3 space-y-3">
+            <div className="flex flex-col mx-3 space-y-3 ">
               {isLoading ? (
                 <Loader2 className="h-4 w-4 animate-spin" />
               ) : user ? (
